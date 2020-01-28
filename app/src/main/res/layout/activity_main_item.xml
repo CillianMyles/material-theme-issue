@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingStart="@dimen/activity_margin"
-    android:paddingEnd="@dimen/activity_margin"
     android:paddingTop="@dimen/activity_margin_half"
+    android:paddingEnd="@dimen/activity_margin"
     android:paddingBottom="@dimen/activity_margin_half"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="MissingPrefix">
 
     <TextView
         android:id="@+id/text1"
+        fontPath="fonts/OpenSans-Bold.ttf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
