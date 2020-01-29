@@ -10,13 +10,13 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig
 class Application : android.app.Application() {
 
     override fun onCreate() {
-        super.onCreate()
-
         CalligraphyConfig.initDefault(
             CalligraphyConfig.Builder()
                 .setDefaultFontPath("fonts/OpenSans-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         )
+
+        super.onCreate()
     }
 }
